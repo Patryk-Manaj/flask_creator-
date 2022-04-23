@@ -12,7 +12,7 @@ from xmlrpc.client import APPLICATION_ERROR
 
 from jinja2 import Template 
 
-from app import app 
+from app import app as application
 
 from flask import flash, render_template, request, redirect, jsonify, make_response, json, send_from_directory, url_for, session
 
